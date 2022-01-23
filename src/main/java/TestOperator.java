@@ -21,7 +21,24 @@ public class TestOperator {
         System.out.println(isEqual1);
 
 
-        System.out.println(true|false);
-        System.out.println(true||false);
+        System.out.println(true | false);
+        System.out.println(true || false);
+
+        //复制运算符号
+        byte b = 10;
+        b = (byte) (b + 1);
+        b += 1;
+
+
+        int x = 15;
+        int y = x++;
+
+        System.out.println("x=" + x + ",y=" + y);
+
+
+        x = 23;
+        x = x ++;
+        System.out.println(x);
+
     }
 }

@@ -53,6 +53,55 @@ object Test01_TestOperator {
 
     println(isNotEmpty(null))
 
+    // 复制操作符号
+    //    var b: Byte = 10
+    //    b += (1.toByte)
+    var i: Int = 10
+    i += 1
+    print(i)
+
+    //位运算符
+    print("---位运算符---")
+    val a: Byte = 60
+    val b: Byte = 13
+    //与
+    println(a & b)
+    //或
+    println(a | b)
+    //异或
+    println(a ^ b)
+    //取反
+    println(~a)
+    //左移
+    println(a << 2)
+    //右移动
+    println(a >> 2)
+    //无符号右移动
+    println(a >>> 2)
+
+    println(a << 3)
+
+    println("c")
+    val c: Short = -13
+    println(b << 2)
+    println(b >> 2)
+    println(b >>> 2)
+
+
+    /**
+     * scala中 运算符的本质
+     * 本质是对象的方法调用
+     * scala 一切面对对象
+     */
+    val n1: Int = 12
+    val n2: Int = 37
+    println(n1.+(n2))
+    println(n1 + n2)
+
+    print(n1 + (n2))
+
+
+    println(7.6 toInt)
 
   }
 

@@ -7,7 +7,9 @@ object Test05_StdIn {
   def main(args: Array[String]): Unit = {
     //
     println("请输入您的大名:")
-    val name: String = StdIn.readLine()
+//    val name: String = StdIn.readLine()
+    // scala 中方法调用 可以使用空格
+    val name: String = StdIn readLine
 
     println("请输入您的芳龄:")
     val age = StdIn.readInt()
