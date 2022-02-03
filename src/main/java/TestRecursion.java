@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * @Author mloine
  * @Description
@@ -8,6 +10,18 @@ public class TestRecursion {
     public static void main(String[] args) {
         System.out.println(factorial(5));
         System.out.println(fact(5));
+
+        ArrayList<Integer> integers = new ArrayList<>();
+        integers.add(1);
+        integers.add(1);
+        integers.add(1);
+        integers.add(1);
+        integers.add(1);
+
+        for (Integer x : integers) {
+            System.out.println("x:" + x);
+        }
+
     }
 
     ///1.循环
