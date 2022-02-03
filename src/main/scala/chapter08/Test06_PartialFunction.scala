@@ -53,5 +53,7 @@ object Test06_PartialFunction {
     println(abs(-1))
     println(abs(6))
     println(abs(0))
+
+
   }
 }
